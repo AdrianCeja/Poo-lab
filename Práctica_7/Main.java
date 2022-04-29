@@ -17,7 +17,7 @@ public class Main {
             switch (opc){
                 case 1 -> Play.jugar();
                 case 2 -> {BirdsArreglo.array(); BirdsArreglo.mostrarArray();}
-                case 3 -> {System.out.println("\n Hasta luego!\n"); System.exit(117);}
+                case 3 -> {System.out.println("\n Hasta luego!\n"); System.exit(26);}
                 default -> throw new IllegalStateException("Unexpected value: " + opc);
             }
         }
